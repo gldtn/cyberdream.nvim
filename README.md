@@ -68,6 +68,7 @@
 | [grapple.nvim](https://github.com/cbochs/grapple.nvim)                                | [grapple](lua/cyberdream/extensions/grapple.lua)                       |
 | [grug-far.nvim](https://github.com/MagicDuck/grug-far.nvim)                           | [grugfar](lua/cyberdream/extensions/grugfar.lua)                       |
 | [heirline-components.nvim](https://github.com/Zeioth/heirline-components.nvim)        | [heirline](lua/cyberdream/extensions/heirline.lua)                     |
+| [helpview.nvim](https://github.com/OXY2DEV/helpview.nvim)                             | [helpview](lua/cyberdream/extensions/helpview.lua)                     |
 | [hop.nvim](https://github.com/phaazon/hop.nvim)                                       | [hop](lua/cyberdream/extensions/hop.lua)                               |
 | [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)       | [indentblankline](lua/cyberdream/extensions/indentblankline.lua)       |
 | [kubectl.nvim](https://github.com/ramilito/kubectl.nvim)                              | [kubectl](lua/cyberdream/extensions/kubectl.lua)                       |
@@ -145,15 +146,14 @@ require("cyberdream").setup({
     -- Replace all fillchars with ' ' for the ultimate clean look
     hide_fillchars = false,
 
-    -- Modern borderless telescope theme
+    -- Modern borderless telescope theme - also applies to fzf-lua
     borderless_telescope = true,
 
     -- Set terminal colors used in `:terminal`
     terminal_colors = true,
 
-    -- Use caching to improve performance - WARNING: experimental feature - expect the unexpected!
-    -- Early testing shows a 60-70% improvement in startup time. YMMV. Disables dynamic light/dark theme switching.
-    cache = false, -- generate cache with :CyberdreamBuildCache and clear with :CyberdreamClearCache
+    -- Improve start up time by caching highlights. Generate cache with :CyberdreamBuildCache and clear with :CyberdreamClearCache
+    cache = false,
 
     theme = {
         variant = "default", -- use "light" for the light variant. Also accepts "auto" to set dark or light colors based on the current value of `vim.o.background`
@@ -206,12 +206,14 @@ We've cooked up some wonderful extras to enhance your cyberdream experience. Mos
 ![terminal](https://github.com/scottmckendry/cyberdream.nvim/assets/39483124/b6727dd0-cd45-4f6c-94cd-92fb0dadcfae)
 
 -   **[Alacritty](extras/alacritty/)**
+-   **[Base16/Stylix](extras/base16/)**
 -   **[Fish](extras/fish/)**
 -   **[GitUI](extras/gitui/)**
 -   **[Helix](extras/helix/)**
 -   **[Kitty](extras/kitty/)**
 -   **[Lazydocker](extras/lazydocker/)**
 -   **[Lazygit](extras/lazygit/)**
+-   **[lsd](extras/lsd/)**
 -   **[Pywal](extras/pywal/)**
 -   **[Rio](extras/rio/)**
 -   **[Textmate/Bat/Sublime/Delta](extras/textmate/)**
@@ -220,6 +222,7 @@ We've cooked up some wonderful extras to enhance your cyberdream experience. Mos
 -   **[Vivid](extras/vivid/)**
 -   **[Wezterm](extras/wezterm/)**
 -   **[Windows Terminal](extras/windowsterminal/)**
+-   **[Yazi](extras/yazi/)**
 -   **[Zed](extras/zed/)**
 -   **[Zellij](extras/zellij/)**
 

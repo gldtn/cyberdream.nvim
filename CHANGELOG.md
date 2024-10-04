@@ -1,5 +1,50 @@
 # Changelog
 
+## [4.2.0](https://github.com/scottmckendry/cyberdream.nvim/compare/v4.1.0...v4.2.0) (2024-10-01)
+
+
+### Features
+
+* **extras:** base16 theme ([5be7d02](https://github.com/scottmckendry/cyberdream.nvim/commit/5be7d024b591a36b765bd7ab0732cab1c2a9b777))
+* **extras:** yazi theme ([5bd0a7d](https://github.com/scottmckendry/cyberdream.nvim/commit/5bd0a7d71df2a35cde81bbe0bce1a5c83f492283))
+
+## [4.1.0](https://github.com/scottmckendry/cyberdream.nvim/compare/v4.0.0...v4.1.0) (2024-08-29)
+
+
+### Features
+
+* **extensions:** update markview.nvim highlight groups ([4f40270](https://github.com/scottmckendry/cyberdream.nvim/commit/4f402704f52acb53306d63f7eae1003871f723f2)), closes [#127](https://github.com/scottmckendry/cyberdream.nvim/issues/127)
+* **extras:** add lsd theme ([dc99ecf](https://github.com/scottmckendry/cyberdream.nvim/commit/dc99ecf23d691e8f943574ba1b44e3f518118d62))
+* **extras:** update zed windows and search highlights ([6689105](https://github.com/scottmckendry/cyberdream.nvim/commit/6689105dd79b7460f180dcb20ca11b38ae4e9488))
+
+
+### Bug Fixes
+
+* **extensions:** show Telescope results title ([#125](https://github.com/scottmckendry/cyberdream.nvim/issues/125)) ([11ef74a](https://github.com/scottmckendry/cyberdream.nvim/commit/11ef74ad01a0aa76e3775876af35590c0e5bc410))
+* **extras:** fix json syntax error in tilix ([#132](https://github.com/scottmckendry/cyberdream.nvim/issues/132)) ([acdfdec](https://github.com/scottmckendry/cyberdream.nvim/commit/acdfdec82c340bdc66c4a728757f8b55cba6e630))
+* **telescope:** 'flat' style look closer to readme screenshots ([a36ef6f](https://github.com/scottmckendry/cyberdream.nvim/commit/a36ef6f05ee1e1ea8c29c8ff3bee293a5bd8e7b7))
+* **telescope:** fix headings for default style and remove duplicate properties ([fadfa8e](https://github.com/scottmckendry/cyberdream.nvim/commit/fadfa8ee6fa4c566958d450a552ecc092e60d8ae))
+
+## [4.0.0](https://github.com/scottmckendry/cyberdream.nvim/compare/v3.8.0...v4.0.0) (2024-08-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* **config:** overrides no longer merge with defaults
+
+### Features
+
+* **extensions:** add helpview.nvim ([6ee2234](https://github.com/scottmckendry/cyberdream.nvim/commit/6ee2234f5b8e877d7125ba4e8fcbd317235a2c87)), closes [#122](https://github.com/scottmckendry/cyberdream.nvim/issues/122)
+* **extensions:** add neogit ([#117](https://github.com/scottmckendry/cyberdream.nvim/issues/117)) ([31f31f2](https://github.com/scottmckendry/cyberdream.nvim/commit/31f31f27dbc2517f72656ad4031f15d25a20dcf2)), closes [#116](https://github.com/scottmckendry/cyberdream.nvim/issues/116)
+* **extensions:** more complete hls for gitsigns.nvim ([abc44e4](https://github.com/scottmckendry/cyberdream.nvim/commit/abc44e40e3141899e57a5c87c3a5191dc1d55930))
+* **extensions:** support transparent fzflua window ([1854b40](https://github.com/scottmckendry/cyberdream.nvim/commit/1854b40d92539f9bc8b29f5c118c01e928af09cd)), closes [#120](https://github.com/scottmckendry/cyberdream.nvim/issues/120)
+
+
+### Bug Fixes
+
+* **config:** overrides no longer merge with defaults ([458f1ed](https://github.com/scottmckendry/cyberdream.nvim/commit/458f1edcd851f135cbbd4fbfbf5e0d156e967570))
+* **extensions:** remove redundant underline property from helpview links ([9454c83](https://github.com/scottmckendry/cyberdream.nvim/commit/9454c831c269dbdf2dc63be4afeb09697a442c52))
+
 ## [3.8.0](https://github.com/scottmckendry/cyberdream.nvim/compare/v3.7.0...v3.8.0) (2024-08-06)
 
 

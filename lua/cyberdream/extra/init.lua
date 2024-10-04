@@ -7,12 +7,14 @@ M.variants = {
 
 M.extras = {
     alacritty = { extension = "toml", name = "alacritty" },
+    base16 = { extension = "yaml", name = "base16" },
     fish = { extension = "theme", name = "fish" },
     gitui = { extension = "ron", name = "gitui" },
     helix = { extension = "toml", name = "helix" },
     kitty = { extension = "conf", name = "kitty" },
     lazydocker = { extension = "yml", name = "lazydocker" },
     lazygit = { extension = "yml", name = "lazygit" },
+    lsd = { extension = "yml", name = "lsd" },
     pywal = { extension = "json", name = "pywal" },
     rio = { extension = "toml", name = "rio" },
     textmate = { extension = "tmTheme", name = "textmate" },
@@ -21,6 +23,7 @@ M.extras = {
     vivid = { extension = "yml", name = "vivid" },
     wezterm = { extension = "lua", name = "wezterm" },
     windowsterminal = { extension = "json", name = "windowsterminal" },
+    yazi = { extension = "toml", name = "yazi" },
     zellij = { extension = "kdl", name = "zellij" },
     zed = { extension = "json", name = "zed" },
 }
