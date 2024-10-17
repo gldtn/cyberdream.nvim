@@ -61,6 +61,7 @@
 | Plugin                                                                                | Highlights                                                             |
 | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
 | [alpha-nvim](https://github.com/goolord/alpha-nvim)                                   | [alpha](lua/cyberdream/extensions/alpha.lua)                           |
+| [blink.cmp](https://github.com/Saghen/blink.cmp)                                      | [blinkcmp](lua/cyberdream/extensions/blinkcmp.lua)                     |
 | [dashboard-nvim](https://github.com/nvimdev/dashboard-nvim)                           | [dashboard](lua/cyberdream/extensions/dashboard.lua)                   |
 | [fzf-lua](https://github.com/ibhagwan/fzf-lua)                                        | [fzflua](lua/cyberdream/extensions/fzflua.lua)                         |
 | [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)                           | [gitsigns](lua/cyberdream/extensions/gitsigns.lua)                     |
@@ -157,6 +158,7 @@ require("cyberdream").setup({
 
     theme = {
         variant = "default", -- use "light" for the light variant. Also accepts "auto" to set dark or light colors based on the current value of `vim.o.background`
+        saturation = 1, -- accepts a value between 0 and 1. 0 will be fully desaturated (greyscale) and 1 will be the full color (default)
         highlights = {
             -- Highlight groups to override, adding new groups is also possible
             -- See `:h highlight-groups` for a list of highlight groups or run `:hi` to see all groups and their current values
@@ -220,6 +222,7 @@ We've cooked up some wonderful extras to enhance your cyberdream experience. Mos
 -   **[Tilux](extras/tilux/)**
 -   **[Tmux](extras/tmux/)**
 -   **[Vivid](extras/vivid/)**
+-   **[Warp](extras/warp/)**
 -   **[Wezterm](extras/wezterm/)**
 -   **[Windows Terminal](extras/windowsterminal/)**
 -   **[Yazi](extras/yazi/)**

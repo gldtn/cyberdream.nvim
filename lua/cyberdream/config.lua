@@ -16,6 +16,7 @@ local M = {}
 
 ---@class ThemeConfig
 ---@field variant? "default" | "light" | "auto"
+---@field saturation? number
 ---@field colors? CyberdreamPalette
 ---@field highlights? table<string, CyberdreamHighlight>
 ---@field overrides? CyberdreamOverrideFn
@@ -25,6 +26,7 @@ local M = {}
 
 ---@class extensions
 ---@field alpha? boolean
+---@field blinkcmp? boolean
 ---@field cmp? boolean
 ---@field dashboard? boolean
 ---@field fzflua? boolean
@@ -70,12 +72,14 @@ local default_options = {
 
     theme = {
         variant = "default",
+        saturation = 1,
         colors = {},
         highlights = {},
     },
 
     extensions = {
         alpha = true,
+        blinkcmp = true,
         cmp = true,
         dashboard = true,
         fzflua = true,
